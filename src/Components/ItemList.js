@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFolder, FaFile } from 'react-icons/fa';
+import '../Assets/Dashboard.css'
 
 function ItemList({ items, onItemClick, onDeleteClick }) {
   return (

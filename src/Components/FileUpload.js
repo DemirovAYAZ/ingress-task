@@ -1,5 +1,6 @@
 import React from 'react';
 import FileDropzone from './FileDropzone';
+import '../Assets/Dashboard.css'
 
 function FileUpload({ onFileUpload }) {
   const onDrop = (acceptedFiles) => {

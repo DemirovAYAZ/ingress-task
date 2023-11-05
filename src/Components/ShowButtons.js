@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Assets/Dashboard.css'
 
 function ShowButtons({ onShowFolders, onShowFiles, onShowAllItems }) {
   return (

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
-import '../Dashboard/Dashboard.css';
+import '../Assets/Dashboard.css'
 
 function FileModal({ isOpen, onRequestClose, selectedItem }) {
   const [fileContent, setFileContent] = useState(null);

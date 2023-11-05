@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDropzone } from 'react-dropzone';
-import '../Dashboard/Dashboard.css'
+import '../Assets/Dashboard.css'
 
 function FileDropzone({ onDrop }) {
   const { getRootProps, getInputProps } = useDropzone({

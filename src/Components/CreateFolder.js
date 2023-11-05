@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../Assets/Dashboard.css'
 
 function CreateFolder({ onFolderCreate }) {
   const [newName, setNewName] = useState('');

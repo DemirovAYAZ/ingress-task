@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import FileModal from '../Components/FileModal';
-import CreateFolder from '../Components/CreateFolder';
-import FileUpload from '../Components/FileUpload';
-import ItemList from '../Components/ItemList';
-import SearchBar from '../Components/SearchBar';
-import ShowButtons from '../Components/ShowButtons';
-import './Dashboard.css';
+import FileModal from '../../Components/FileModal';
+import CreateFolder from '../../Components/CreateFolder';
+import FileUpload from '../../Components/FileUpload';
+import ItemList from '../../Components/ItemList';
+import SearchBar from '../../Components/SearchBar';
+import ShowButtons from '../../Components/ShowButtons';
+import '../../Assets/Dashboard.css'
 
 function Dashboard() {
   const [items, setItems] = useState([]);
